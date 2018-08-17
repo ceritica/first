@@ -3,8 +3,23 @@
 <head>
   <title>New Start! _Joon</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1><a href="index.html">New Start!<br>To check weather information, Please check the bottom of the website.</h1></a>
+  <div id="grid">
+    <ul><h2>
+      <li><a href="1.html">The reason why I start to study it</li></a>
+      <li><a href="2.html">What am I going to study myself?</li></a>
+       <ol>
+         <li>HTML</li>
+         <li>CSS</li>
+         <li>JAVA Script</li>
+       </ol>
+      <li><a href="3.html" class="saw">What is the goal of my study?</li></a>
+    </ul></h2>
+
+<!--
   <h1><a href="index.html">New Start!</h1></a>
   <ul><h2>
     <li><a href="1.html">The reason why I start to study it</li></a>
@@ -14,45 +29,57 @@
        <li>CSS</li>
        <li>JAVA Script</li>
      </ol>
-    <li><a href="3.html">What is the goal of my study?</li></a>
-  </ul></h2>
-<p>
-  <a class="weatherwidget-io" href="https://forecast7.com/en/37d39126d96/anyang/" data-label_1="ANYANG" data-label_2="WEATHER" data-theme="original" >ANYANG WEATHER</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-</p>
-<p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/AulHEVz75lY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</p>
-<h3>Welcome !</h3>
-<img src="welcome.jpg" width="50%">
-<p>Hello, Stranger.<br>This is my first website to practice HTML, CSS, JAVA Script.
-</p>
-<p>
-  <div id="disqus_thread"></div>
-<script>
+-->
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://new-start.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<p>
-  <script id="dsq-count-scr" src="//new-start.disqus.com/count.js" async></script>
-</p>
+    <div id=mainscreen>
+
+
+      <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AulHEVz75lY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </p>
+
+      <h3>Welcome !
+      </h3>
+
+      <img src="welcome.jpg" width="50%">
+
+      <p>Hello, Stranger.<br>This is my first website to practice HTML, CSS, JAVA Script.
+      </p>
+
+      <p>
+        <div id="disqus_thread"></div>
+          <script>
+
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+              (function() { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://new-start.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+              })();
+          </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </p>
+
+      <p>
+        <script id="dsq-count-scr" src="//new-start.disqus.com/count.js" async></script>
+      </p>
+    </div>
+  </div>
+  <div id="weatherwidget">
+    <a class="weatherwidget-io" href="https://forecast7.com/en/37d39126d96/anyang/" data-label_1="ANYANG" data-label_2="WEATHER" data-theme="original" >ANYANG WEATHER</a>
+      <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+      </script>
+  </div>
+
 </body>
 </html>

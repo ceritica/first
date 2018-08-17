@@ -1,0 +1,44 @@
+body{
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+h1{
+  font-size: 42px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin:0;
+  padding:20px;
+}
+h2{
+  margin:0;
+}
+#grid ul{
+  border-right:1px solid gray;
+  width:200px;
+  margin:0;
+  padding:30px;
+  padding-left:38px;
+  padding-right:16px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 300px 2fr;
+}
+#weatherwidget{
+  border-top:1px solid gray;
+}
+@media(max-width:900px){
+  #grid{
+    display: block;
+  }
+  #grid ul{
+    border: none;
+    width: inherit;
+  }
+}
+#mainscreen{
+  padding-left: 20px
+}
